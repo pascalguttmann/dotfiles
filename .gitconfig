@@ -1,0 +1,68 @@
+[user]
+	name = pascalguttmann
+	email = github@pascal-guttmann.de
+[alias]
+  lg = log --graph --topo-order --date=rfc --format=format:'%C(bold yellow)%(decorate:prefix=============================================================================%n,suffix=%n,separator=%n)%Creset%Cred%h%Creset | %Cgreen%cd%Creset | %C(cyan)%an%Creset%n%<|(-2,trunc)%s%n'
+	st = status
+	cm = commit
+	sw = switch
+	br = branch
+	wdiff = diff --word-diff
+	diffw = diff --word-diff
+	diffs = diff --staged
+	diffsw = diff --staged --word-diff
+	diffws = diffsw
+	sm = submodule
+	lgb = lg main..@
+	lgl = lg @{u}..@
+	diffb = diff main...@
+[status]
+	showUntrackedFiles = all
+	submodulesummary = 1
+[push]
+	followTags = true
+	autoSetupRemote = true
+	default = current
+	recurseSubmodules = on-demand
+[core]
+	excludefile = C:/Users/Pascal_Guttmann/.gitignore
+	preloadIndex = true
+	fsmonitor = true
+	untrackedCache = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[url]
+	ssh = //git@github.com/.insteadof=https://github.com/
+[diff]
+	submodule = log
+	colorMoved = true
+	algorithm = histogram
+	mnemonicPrefix = true
+	renames = true
+[submodule]
+	recurse = true
+[maintenance]
+	repo = D:/240613_HFU_SMA_Master_Thesis/obat
+[safe]
+	directory = *
+[fetch]
+	parallel = 8
+	prune = true
+	pruneTags = true
+	all = true
+[merge]
+	conflictstyle = zdiff3
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[init]
+	defaultBranch = main
+[help]
+	autocorrect = prompt
+
