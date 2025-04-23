@@ -1,1 +1,11 @@
 *
+
+!/README.md
+!/LICENSE
+
+!/.gitignore
+!/.gitconfig
+
+!/.config/
+!/.config/keepassxc/
+!/.config/keepassxc/*
