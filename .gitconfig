@@ -29,6 +29,7 @@
 	preloadIndex = true
 	fsmonitor = true
 	untrackedCache = true
+	excludesfile = /home/pagu/.gitignore_global
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
