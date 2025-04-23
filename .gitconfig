@@ -34,8 +34,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[url]
-	ssh = //git@github.com/.insteadof=https://github.com/
 [diff]
 	submodule = log
 	colorMoved = true
@@ -66,3 +64,5 @@
 [help]
 	autocorrect = prompt
 
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
