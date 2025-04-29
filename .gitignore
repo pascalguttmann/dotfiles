@@ -10,3 +10,13 @@
 !/.config/
 !/.config/keepassxc/
 !/.config/keepassxc/*
+
+!/snap/
+!/snap/spotify/
+!/snap/spotify/86/
+!/snap/spotify/86/.config/
+!/snap/spotify/86/.config/spotify/
+!/snap/spotify/86/.config/spotify/Users/
+!/snap/spotify/86/.config/spotify/Users/pakal167-user/
+!/snap/spotify/86/.config/spotify/Users/pakal167-user/prefs
+
