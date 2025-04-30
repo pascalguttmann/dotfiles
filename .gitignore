@@ -1,17 +1,28 @@
+# dotfiles .gitingore
+
+## default ignore
 *
 
+## repository files
 !/README.md
 !/LICENSE
 
+## git
 !/.gitignore
 !/.gitignore_global
 !/.gitconfig
 
+## config
 !/.config/
+
+### keepassxc
 !/.config/keepassxc/
 !/.config/keepassxc/*
 
+## snap
 !/snap/
+
+### spotify
 !/snap/spotify/
 !/snap/spotify/86/
 !/snap/spotify/86/.config/
@@ -19,4 +30,19 @@
 !/snap/spotify/86/.config/spotify/Users/
 !/snap/spotify/86/.config/spotify/Users/pakal167-user/
 !/snap/spotify/86/.config/spotify/Users/pakal167-user/prefs
+
+## mozilla firefox
+!/.mozilla/
+
+### extensions
+!/.mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/
+
+### settings / prefs
+!/.mozilla/firefox/
+!/.mozilla/firefox/installs.ini
+!/.mozilla/firefox/profiles.ini
+
+!/.mozilla/firefox/xv5nty41.default/
+
+
 
