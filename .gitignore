@@ -46,5 +46,7 @@
 !/.mozilla/firefox/o1sj6a91.default-release/prefs.js
 !/.mozilla/firefox/o1sj6a91.default-release/extension-preferences.json
 !/.mozilla/firefox/o1sj6a91.default-release/extensions.json
+!/.mozilla/firefox/o1sj6a91.default-release/extensions/
+!/.mozilla/firefox/o1sj6a91.default-release/extensions/*
 
 
