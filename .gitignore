@@ -39,6 +39,7 @@
 
 ### settings / prefs
 !/.mozilla/firefox/
+!/.mozilla/firefox/bookmarks_export.html
 !/.mozilla/firefox/installs.ini
 !/.mozilla/firefox/profiles.ini
 
