@@ -1,0 +1,19 @@
+user_pref("mail.compose.attachment_reminder_keywords", ".doc,.pdf,.xls,.ppt,.rtf,.pps,attachment,attach,attached,attaching,enclosed,CV,cover letter,anbei,angehängt,angefügt,beigefügt,Anhang,anhang");
+user_pref("mail.compose.big_attachments.threshold_kb", 20480);
+user_pref("mail.compose.default_to_paragraph", false);
+user_pref("mail.default_send_format", 3);
+user_pref("mail.mdn.report.enabled", false);
+user_pref("mail.shell.checkDefaultClient", true);
+user_pref("mail.spam.logging.enabled", true);
+user_pref("mail.spam.manualMark", true);
+user_pref("mail.spam.manualMarkMode", 1);
+user_pref("mail.spam.markAsReadOnSpam", true);
+user_pref("mailnews.start_page.enabled", false);
+user_pref("messenger.options.messagesStyle.theme", "simple");
+user_pref("network.cookie.cookieBehavior", 2);
+user_pref("places.history.enabled", false);
+user_pref("pref.general.disable_button.default_mail", false);
+user_pref("pref.ldap.disable_button.edit_directories", false);
+user_pref("pref.privacy.disable_button.view_passwords", false);
+user_pref("privacy.donottrackheader.enabled", true);
+
