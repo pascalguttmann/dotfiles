@@ -51,4 +51,16 @@
 !/.mozilla/firefox/o1sj6a91.default-release/extensions/
 !/.mozilla/firefox/o1sj6a91.default-release/extensions/*
 
+## thunderbird
+!/.thunderbird/
+!/.thunderbird/installs.ini
+!/.thunderbird/profiles.ini
+
+!/.thunderbird/vukc0uby.default-esr/
+!/.thunderbird/vukc0uby.default-esr/addons.js
+!/.thunderbird/vukc0uby.default-esr/prefs.js
+!/.thunderbird/vukc0uby.default-esr/extension-preferences.json
+!/.thunderbird/vukc0uby.default-esr/extensions.json
+!/.thunderbird/vukc0uby.default-esr/extensions/
+!/.thunderbird/vukc0uby.default-esr/extensions/*
 
