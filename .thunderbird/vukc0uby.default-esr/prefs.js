@@ -9,6 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1746134144);
 user_pref("app.update.lastUpdateTime.region-update-timer", 1746134144);
 user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1746134144);
@@ -30,7 +31,7 @@ user_pref("calendar.ui.version", 3);
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.databaseSchema", 36);
-user_pref("extensions.getAddons.cache.lastUpdate", 1746136056);
+user_pref("extensions.getAddons.cache.lastUpdate", 1746137413);
 user_pref("extensions.getAddons.databaseSchema", 6);
 user_pref("extensions.lastAppBuildId", "20250417120720");
 user_pref("extensions.lastAppVersion", "128.9.2");
@@ -38,6 +39,9 @@ user_pref("extensions.lastPlatformVersion", "128.9.0");
 user_pref("extensions.pendingOperations", false);
 user_pref("extensions.signatureCheckpoint", 1);
 user_pref("extensions.systemAddonSet", "{\"schema\":1,\"addons\":{}}");
+user_pref("extensions.ui.dictionary.hidden", false);
+user_pref("extensions.ui.lastCategory", "addons://list/locale");
+user_pref("extensions.ui.locale.hidden", false);
 user_pref("extensions.webextensions.uuids", "{\"default-theme@mozilla.org\":\"1d4f30c0-9499-4fbd-a2da-385807052718\"}");
 user_pref("gecko.handlerService.defaultHandlersVersion", 1);
 user_pref("idle.lastDailyNotification", 1746134496);
@@ -91,8 +95,9 @@ user_pref("services.settings.last_update_seconds", 1746145149);
 user_pref("services.settings.thunderbird.hijack-blocklists.last_check", 1746145149);
 user_pref("services.settings.thunderbird.search-config.last_check", 1746145149);
 user_pref("services.settings.thunderbird.url-classifier-skip-urls.last_check", 1746145149);
+user_pref("spellchecker.dictionary", "en-US,de-DE");
 user_pref("storage.vacuum.last.index", 0);
 user_pref("storage.vacuum.last.places.sqlite", 1746134496);
-user_pref("toolkit.startup.last_success", 1746136052);
+user_pref("toolkit.startup.last_success", 1746137410);
 user_pref("toolkit.telemetry.cachedClientID", "c0ffeec0-ffee-c0ff-eec0-ffeec0ffeec0");
 user_pref("toolkit.telemetry.previousBuildID", "20250417120720");

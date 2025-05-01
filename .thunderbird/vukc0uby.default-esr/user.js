@@ -16,4 +16,9 @@ user_pref("pref.general.disable_button.default_mail", false);
 user_pref("pref.ldap.disable_button.edit_directories", false);
 user_pref("pref.privacy.disable_button.view_passwords", false);
 user_pref("privacy.donottrackheader.enabled", true);
+user_pref("accessibility.typeaheadfind.flashBar", 0);
+user_pref("extensions.ui.dictionary.hidden", false);
+user_pref("extensions.ui.lastCategory", "addons://list/locale");
+user_pref("extensions.ui.locale.hidden", false);
+user_pref("spellchecker.dictionary", "en-US,de-DE");
 
