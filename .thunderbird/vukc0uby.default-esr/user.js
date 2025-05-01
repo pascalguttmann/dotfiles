@@ -21,4 +21,8 @@ user_pref("extensions.ui.dictionary.hidden", false);
 user_pref("extensions.ui.lastCategory", "addons://list/locale");
 user_pref("extensions.ui.locale.hidden", false);
 user_pref("spellchecker.dictionary", "en-US,de-DE");
+user_pref("calendar.view.dayendhour", 18);
+user_pref("calendar.view.showLocation", true);
+user_pref("calendar.view.visiblehours", 16);
+user_pref("calendar.week.start", 1);
 
