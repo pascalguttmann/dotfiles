@@ -12,6 +12,9 @@
 !/.gitignore_global
 !/.gitconfig
 
+##
+!/.bashrc
+
 ## config
 !/.config/
 
